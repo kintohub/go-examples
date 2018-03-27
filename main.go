@@ -7,6 +7,11 @@ import (
     "log"
 )
 
+/**
+ * @api {get} / Request User information
+ * @apiName Get
+ *
+ */
 func sayhelloName(w http.ResponseWriter, r *http.Request) {
     r.ParseForm()  // parse arguments, you have to call this by yourself
     fmt.Println(r.Form)  // print form information in server side
