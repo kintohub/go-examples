@@ -1,14 +1,35 @@
-# go sample
-A sample go microservice block for [kintohub](http://kintohub.com)
 
-It is using go `1.10.0`
+# Go Sample App
 
-# First time setup
-* `go build main.go`
+A sample Golang App for [Kintohub](http://kintohub.com)
 
-# Run
-- `./main` will launch the server on port `80`
+## :rocket: Deploying on Kintohub v1
 
-# Run in docker
-- `docker build -t go-test .`
-- `docker run -d --name=go-test -p 80:80 go-test` 
+### # Using Dockerfile 
+
+- **Type:** Web App
+- **Repo:** https://github.com/kintohub/go-examples
+- **Branch:** master
+- **Language:** Dockerfile
+- **Dockerfile name:** Dockerfile
+- **Subfolder Path:** `.`
+- **Port:** 80
+
+
+<hr>
+
+### # Traditional way
+
+- **Type:** Web App
+- **Repo:** https://github.com/kintohub/go-examples
+- **Branch:** master
+- **Language:** Go
+- **Language version:** 1.10.0
+- **Build Command:** `go build main.go`
+- **Start Command:** `./main`
+- **Subfolder Path:** `.`
+- **Port:** 80
+
+## :ambulance: Support
+
+http://www.kintohub.com
